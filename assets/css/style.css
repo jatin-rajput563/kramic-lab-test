@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     list-style: none !important;
     text-decoration: none !important;
     box-sizing: border-box !important;
+}
+
+.sun-font {
+    font-family: "Sunflower", sans-serif;
 }
 
 .name {
@@ -21,6 +27,51 @@ nav {
 
 .gap-32 {
     gap: 32px;
+}
+
+.home-page-bg {
+    background-image: url(/assets/image/Homepage-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Connect-btn {
+    padding: 12px 32px 12px 32px;
+    gap: 10px;
+    border-radius: 82px;
+}
+
+.grey-bg-2 {
+    top: 12%;
+    left: 0%;
+}
+
+.believers-para-box {
+    max-width: 570px;
+}
+
+.believers-para-1 {
+    font-family: Sunflower;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 69.56px;
+    text-align: left;
+}
+
+.sec-1-btn {
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+    border-radius: 82px;
+    border: 2px solid white;
+}
+
+.sec-1-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-svg path:hover {
+    fill: black;
 }
 
 @media (max-width:992px) {
