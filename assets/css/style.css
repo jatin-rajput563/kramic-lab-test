@@ -299,4 +299,7 @@ nav {
         opacity: 0;
         visibility: hidden;
     }
+    .pr-300{
+        padding-right: 0;
+    }
 }
