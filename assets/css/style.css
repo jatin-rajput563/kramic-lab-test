@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
-
+@import url(/assets/css/root.css);
 * {
     margin: 0;
     padding: 0;
@@ -37,6 +37,10 @@ nav {
     padding-top: 100px;
 }
 
+.mt-69 {
+    margin-top: 69px;
+}
+
 .home-page-bg {
     background-image: url(/assets/image/Homepage-bg.png);
     background-repeat: no-repeat;
@@ -56,14 +60,6 @@ nav {
 
 .believers-para-box {
     max-width: 570px;
-}
-
-.believers-para-1 {
-    font-family: Sunflower;
-    font-size: 64px;
-    font-weight: 300;
-    line-height: 69.56px;
-    text-align: left;
 }
 
 .sec-1-btn {
@@ -91,10 +87,17 @@ nav {
     backdrop-filter: 30px;
     box-shadow: 0px -1px 20px 0px #FFFFFF1A;
 }
-.sec-2-boxes:hover{
+
+.sec-2-boxes:hover {
     background-color: black;
 }
 
+/* ======================section-2 ====================== */
+.footer-line{
+    max-width: 100%;
+    height: 1px;
+    background-color: white;
+}
 @media (max-width:992px) {
     nav {
         z-index: 9;
