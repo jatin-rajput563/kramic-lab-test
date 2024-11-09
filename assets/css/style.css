@@ -29,6 +29,14 @@ nav {
     gap: 32px;
 }
 
+.pt-174 {
+    padding-top: 174px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
 .home-page-bg {
     background-image: url(/assets/image/Homepage-bg.png);
     background-repeat: no-repeat;
@@ -72,6 +80,19 @@ nav {
 
 .btn-svg path:hover {
     fill: black;
+}
+
+/* ======================section-2 ====================== */
+.sec-2-boxes {
+    max-width: 263px;
+    border-radius: 12px;
+    border: 1px solid #FFFFFF1A;
+    background-color: #1E1E1E;
+    backdrop-filter: 30px;
+    box-shadow: 0px -1px 20px 0px #FFFFFF1A;
+}
+.sec-2-boxes:hover{
+    background-color: black;
 }
 
 @media (max-width:992px) {
